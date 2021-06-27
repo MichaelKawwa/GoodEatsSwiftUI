@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		868BB4DB26785E9F0024CBF0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868BB4DA26785E9F0024CBF0 /* Card.swift */; };
+		868BB4DD2678E82D0024CBF0 /* bagelboy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 868BB4DC2678E82D0024CBF0 /* bagelboy.jpeg */; };
+		868BB4DF267A4B470024CBF0 /* foundryBurger.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 868BB4DE267A4B470024CBF0 /* foundryBurger.jpeg */; };
+		868BB4E1267A50800024CBF0 /* omonia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 868BB4E0267A50800024CBF0 /* omonia.jpeg */; };
+		86CF0D632686CF6E0003294B /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CF0D622686CF6E0003294B /* LocationViewModel.swift */; };
 		86ECC870251583A0000757D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ECC86F251583A0000757D1 /* AppDelegate.swift */; };
 		86ECC872251583A0000757D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ECC871251583A0000757D1 /* SceneDelegate.swift */; };
 		86ECC875251583A0000757D1 /* GoodEatsSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86ECC873251583A0000757D1 /* GoodEatsSwiftUI.xcdatamodeld */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		868BB4DA26785E9F0024CBF0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		868BB4DC2678E82D0024CBF0 /* bagelboy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bagelboy.jpeg; sourceTree = "<group>"; };
+		868BB4DE267A4B470024CBF0 /* foundryBurger.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foundryBurger.jpeg; sourceTree = "<group>"; };
+		868BB4E0267A50800024CBF0 /* omonia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = omonia.jpeg; sourceTree = "<group>"; };
+		86CF0D622686CF6E0003294B /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 		86ECC86C251583A0000757D1 /* GoodEatsSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodEatsSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86ECC86F251583A0000757D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86ECC871251583A0000757D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,8 +70,13 @@
 			children = (
 				86ECC86F251583A0000757D1 /* AppDelegate.swift */,
 				86ECC871251583A0000757D1 /* SceneDelegate.swift */,
+				868BB4DA26785E9F0024CBF0 /* Card.swift */,
+				86CF0D622686CF6E0003294B /* LocationViewModel.swift */,
 				86ECC876251583A0000757D1 /* ContentView.swift */,
 				86ECC878251583AC000757D1 /* Assets.xcassets */,
+				868BB4DC2678E82D0024CBF0 /* bagelboy.jpeg */,
+				868BB4E0267A50800024CBF0 /* omonia.jpeg */,
+				868BB4DE267A4B470024CBF0 /* foundryBurger.jpeg */,
 				86ECC87D251583AC000757D1 /* LaunchScreen.storyboard */,
 				86ECC880251583AC000757D1 /* Info.plist */,
 				86ECC873251583A0000757D1 /* GoodEatsSwiftUI.xcdatamodeld */,
@@ -138,6 +153,9 @@
 			files = (
 				86ECC87F251583AC000757D1 /* LaunchScreen.storyboard in Resources */,
 				86ECC87C251583AC000757D1 /* Preview Assets.xcassets in Resources */,
+				868BB4E1267A50800024CBF0 /* omonia.jpeg in Resources */,
+				868BB4DD2678E82D0024CBF0 /* bagelboy.jpeg in Resources */,
+				868BB4DF267A4B470024CBF0 /* foundryBurger.jpeg in Resources */,
 				86ECC879251583AC000757D1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				86ECC875251583A0000757D1 /* GoodEatsSwiftUI.xcdatamodeld in Sources */,
+				86CF0D632686CF6E0003294B /* LocationViewModel.swift in Sources */,
 				86ECC870251583A0000757D1 /* AppDelegate.swift in Sources */,
+				868BB4DB26785E9F0024CBF0 /* Card.swift in Sources */,
 				86ECC877251583A0000757D1 /* ContentView.swift in Sources */,
 				86ECC872251583A0000757D1 /* SceneDelegate.swift in Sources */,
 			);
